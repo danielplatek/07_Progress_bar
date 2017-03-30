@@ -9,7 +9,7 @@ $(function init(){
         var $span              = $('#' + $progressBar).find('span');
 
         $($span).removeClass('green orange blue')
-               .addClass($progressBarColor)
-               .animate({width: $progressBarWidth}, 1000);
+                .addClass($progressBarColor)
+                .animate({width: $progressBarWidth}, 1000);
     })
 });
